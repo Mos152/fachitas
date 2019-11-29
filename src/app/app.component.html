@@ -1,3 +1,13 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+  <ion-toolbar>
+    <ion-segment>
+      <ion-segment-button value="all" checked (click)="moverseinicio()">
+        Inicio
+      </ion-segment-button>
+      <ion-segment-button value="favorites" (click)="productosfunction()">
+        Productos
+      </ion-segment-button>
+    </ion-segment>  
+  </ion-toolbar>
 </ion-app>

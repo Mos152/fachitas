@@ -1,0 +1,28 @@
+
+ion-img {
+    max-width: 300px;
+}
+
+.bg{
+    --ion-background-color: linear-gradient(to bottom, #5e53f5 0%, #fff 100%);
+    bottom: -50px;
+}
+
+ion-row {
+    text-align: center;
+}
+
+ion-button{
+    text-align: center;
+}
+
+ion-card {
+    
+    width: 50%;
+    height: 50%;    
+}
+ion-card img {
+
+    width:50%;
+    height:50%;
+}
